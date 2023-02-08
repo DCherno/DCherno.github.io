@@ -1,14 +1,70 @@
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+h1 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+}
+
+h3 {
+   text-align: left;
+  font-family: Lucida Console,Monospace;
+  text-transform: uppercase;
+  text-decoration-line: underline;
+  text-decoration-color: black;
+  text-decoration-style: dotted;
+  
+}
+
+h4 {
+   text-align: left;
+  font-family: Lucida Console,Monospace;
+  text-transform: uppercase;
+  text-decoration-line: underline;
+  text-decoration-color: black;
+  text-decoration-style: dashed;
+}
+
 body {
   background-color: blue;
   color: white;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, sans-serif;
   margin: 10% 20%;
 }
 
 .exp-header {
   text-align: center;
   text-transform: uppercase;
-  border-top: 3px solid black;
-  border-bottom: 3px solid black;
+  font-family: Lucida Console,Monospace;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
   
+}
+
+.skills-header {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: Lucida Console,Monospace;
+  border-top: 2px solid black;
+  
+}
+
+table, th, td{
+  border: 2px solid black;
+  border-collapse: collapse;
+  width: 100%;
+  
+}
+
+th{
+  text-align: center;
+}
+
+td{
+  text-align: left;
 }
