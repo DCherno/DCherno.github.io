@@ -14,8 +14,9 @@ h1 {
 p {
   text-align: justify;
   text-indent: 25px;
-   width: 50%;
+  width: 50%;
   margin: auto;
+  padding-bottom: 25px;
 }
 
 h3 {
@@ -30,11 +31,17 @@ h4 {
   text-transform: uppercase;
 }
 
+h5 {
+  text-align: left;
+  font-family: Lucida Console,Monospace;
+  text-transform: uppercase;
+}
+
 body {
   background-color: blue;
   color: white;
   font-family: Arial, sans-serif;
-  width: 50%;
+  width: 40%;
   margin: auto;
 }
 
@@ -44,7 +51,7 @@ body {
   font-family: Lucida Console,Monospace;
   border-top: 2px solid black;
   border-bottom: 2px solid black;
-  width: 100%;
+  width: 90%;
   margin: auto;
   
 }
@@ -54,7 +61,7 @@ body {
   text-transform: uppercase;
   font-family: Lucida Console,Monospace;
   border-top: 2px solid black;
-  width: 100%;
+  width: 90%;
   margin: auto;
   
 }
